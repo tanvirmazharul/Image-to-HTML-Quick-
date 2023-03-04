@@ -1,0 +1,199 @@
+/*common start*/
+body {
+	margin: 0;
+	font-family: sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #0f2656;
+}
+/*common end*/
+
+/*header start*/
+header {
+	border-bottom: 3px solid #f2f3f5;
+	padding: 15px 0;
+}
+
+.container {
+	width: 90%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.logo {
+	width: 10%;
+	float: left;
+}
+
+.logo a {
+	display: block;
+}
+
+.logo a img {
+	width: 100%;
+}
+
+.menubar {
+	width: 60%;
+	float: right;
+}
+
+.menubar ul {
+	float: right;
+}
+
+.menubar ul li {
+	list-style: none;
+	float: left;
+}
+
+.menubar ul li a {
+	text-decoration: none;
+	padding: 0 15px;
+	display: inline-block;
+	color: #0f2656;
+	transition: 0.33s;
+}
+
+.menubar ul li a:hover {
+	color: #1493ff;
+}
+
+.menubar ul li:last-child a {
+	padding-right: 0;
+}
+
+/*header end*/
+
+/*banner start*/
+
+.banner {
+	padding: 60px 0;
+}
+
+.banner_wrapper {
+	width: 50%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.banner_h1 {
+	margin: 0;
+	font-size: 50px;
+	font-weight: 700;
+	line-height: 65px;
+	text-align: center;
+}
+
+.banner_h1 span {
+	color: #1493ff;
+}
+
+.banner_p {
+	line-height: 25px;
+	margin: 10px 0 20px;
+	text-align: center;
+}
+
+.wrapper_image {
+	margin: 0 auto;
+	width: 100%;
+}
+
+.wrapper_image img{
+	width: 100%;
+}
+
+/*banner end*/
+
+/*about start*/
+.about {
+	padding-bottom: 60px;
+}
+
+.a_left {
+	width: 41%;
+	float: left;
+	text-align: right;
+}
+.a_left h2 {
+	font-weight: 700;
+	font-size: 40px;
+	color: red;
+	margin: 0;
+}
+
+.a_left p {
+	line-height: 25px;
+	margin: 5px 0 0;
+}
+
+.a_right {
+	width: 55%;
+	float: right;
+}
+
+.a_right h1 {
+	font-weight: 700;
+	font-size: 45px;
+	margin: 0;
+}
+
+/*about end*/
+
+/*services start*/
+.service {
+	padding-bottom: 60px;
+	overflow: hidden;
+}
+.s_item{
+	float: left;
+	width: 26%;
+	padding: 30px 2.4% 40px;
+	margin-right: 3%;
+}
+
+.s_item:first-child {
+	margin-left: 10px;
+	background-color: #fdebed;
+}
+.s_item:nth-child(2) {
+	background-color: #ebf9f4;
+}
+
+.s_item:last-child {
+	margin-right: 0;
+	background-color: #fff7e8;
+}
+
+.s_image img{
+	width: 100%;
+}
+.s_h2{
+	margin: 15px 0;
+	font-weight: 700;
+	font-size: 20px;
+}
+.s_p{
+	margin: 0;
+	line-height: 25px;
+}
+/*services end*/
+
+/*Footer start*/
+footer {
+	background-color: #1493ff;
+	padding: 30px 0;
+	text-align: center;
+}
+
+footer p{
+	margin: 0;
+	color: white;
+}
+
+footer p a {
+	color: white;
+	text-decoration: none;
+}
+/*Footer end*/
